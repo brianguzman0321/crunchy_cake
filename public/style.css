@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-image: url(cake_All_Vertical.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#responsive-img {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+#responsive {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1024px) {
+  #responsive-img {
+    visibility: visible;
+  } 
